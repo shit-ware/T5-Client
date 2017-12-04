@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Patches">
+      <UniqueIdentifier>{3db0f087-4621-47f4-8a34-0f576e300481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patches\MP">
+      <UniqueIdentifier>{104be827-640c-4e87-b76d-b7ca2a0806ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Patches\SP">
+      <UniqueIdentifier>{0b700ef8-0356-45e3-8765-27c6b7315006}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Steam">
+      <UniqueIdentifier>{003a6b5f-68ac-4f70-96b4-8634bb231f2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{708e58ca-2094-4c41-b438-19a7a80bf3b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AC">
+      <UniqueIdentifier>{897e363a-d36d-41cd-92c5-0ade8492e3a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Steam">
+      <UniqueIdentifier>{297731f3-c8ed-4f2f-a975-3ed33e01d80d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Patches">
+      <UniqueIdentifier>{a29bf206-b4af-4de3-8e8c-e9f0c2332bbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AC">
+      <UniqueIdentifier>{57df3129-252e-4548-a896-20a10c40fabb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{3ff028c0-69e9-4f81-a8f5-259dd299ff8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooking.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="T5.cpp">
+      <Filter>Source Files\Patches</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5Branding.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5Commands.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5Download.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5NoBorder.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5SuicideMessages.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5Validate.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchSP.cpp">
+      <Filter>Source Files\Patches\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchSPBranding.cpp">
+      <Filter>Source Files\Patches\SP</Filter>
+    </ClCompile>
+    <ClCompile Include="steam_api.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamApps003.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamBase.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamFriends007.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamGameServer010.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamMasterServerUpdater001.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamNetworking004.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamUser014.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamUserStats007.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamUtils005.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+    <ClCompile Include="anticode.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Auth.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="diskinfo.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="hwbrk.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Detections.cpp">
+      <Filter>Source Files\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCommandLine.cpp">
+      <Filter>Source Files\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="T5sph4x.cpp">
+      <Filter>Source Files\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="PatchT5Bots.cpp">
+      <Filter>Source Files\Patches\MP</Filter>
+    </ClCompile>
+    <ClCompile Include="fullbright.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="SteamRemoteStorage002.cpp">
+      <Filter>Source Files\Steam</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\deps\tools\buildnumber.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamApps003.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamBase.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamFriends007.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamGameServer010.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamMasterServerUpdater001.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamNetworking004.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamUser014.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamUserStats007.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamUtils005.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooking.h">
+      <Filter>Header Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="T5.h">
+      <Filter>Header Files\Patches</Filter>
+    </ClInclude>
+    <ClInclude Include="diskinfo.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="hwbrk.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="stdinc.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="hwid+serial.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+    <ClInclude Include="SteamRemoteStorage002.h">
+      <Filter>Header Files\Steam</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
